@@ -1,0 +1,16 @@
+PODS:
+  - TestAMoudle (0.1.0)
+
+DEPENDENCIES:
+  - TestAMoudle (from `Lib/TestAMoudle`)
+
+EXTERNAL SOURCES:
+  TestAMoudle:
+    :path: Lib/TestAMoudle
+
+SPEC CHECKSUMS:
+  TestAMoudle: e8f79bb757466184be9138a986b0db2eb90e8985
+
+PODFILE CHECKSUM: 484d39ecf1d8fe151381e31bd63e8addc88bb3e0
+
+COCOAPODS: 1.9.1

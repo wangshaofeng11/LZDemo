@@ -1,0 +1,22 @@
+{
+  "name": "TestAMoudle",
+  "version": "0.1.0",
+  "summary": "A short description of TestAMoudle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangshaofeng11/TestAMoudle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangshaofeng11": "wangshaofeng@xdf.cn"
+  },
+  "source": {
+    "git": "https://github.com/wangshaofeng11/TestAMoudle.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestAMoudle/Classes/**/*"
+}
