@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TestAMoudle:
-    :commit: d8080f9206eda59bcd2fd16f0cccada2684cd550
+    :commit: c2353429757e906462d6384d37f49020b8f5f654
     :git: https://github.com/wangshaofeng11/TestAMoudle
 
 SPEC CHECKSUMS:

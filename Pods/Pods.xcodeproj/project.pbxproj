@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		07AB9594818FC1A0CC8F1D2A30C9CF4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3BE0DE06A129B80CDECE96B4DBD47A39 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF407A02769AAE67EF981E56C919144A /* AppViewController.swift */; };
+		19523E693684605A6CB431467EFCF839 /* BppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2BA7E025CAAD7011DEFFE944C5B36 /* BppViewController.swift */; };
+		22C5BBB3F8458614295B27C490BE5267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3FE89606B90C98490A370FF0AE2298CD /* Pods-LZDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F978166516860BBD9C2CA223CFE1B9E /* Pods-LZDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		404E434F24B710F400445CC4 /* BppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404E434E24B710F400445CC4 /* BppViewController.swift */; };
 		4B351CCA14E400E7989BD086AED8CD66 /* Pods-LZDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8788DE8B1D5413036767130D24A492 /* Pods-LZDemo-dummy.m */; };
-		AB01F6B7EB7A50B744DF37876BE7E334 /* TestAMoudle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 737935DDE10BF3498FFF052A73B76188 /* TestAMoudle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC360AA0CAFD8838C4EE80589C67A5D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DC8F16E5C34CBD098A42E67D75CCCCBE /* TestAMoudle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 722F3A36394BD682448098E446D26780 /* TestAMoudle-dummy.m */; };
+		E5E9A446C0D7AC8BD4B285AA2626A2D1 /* TestAMoudle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8EAA96E9D50BA7CBF0EAC04F6BF60 /* TestAMoudle-dummy.m */; };
+		EEF4B84225B1B8EC3D54A30661B0C278 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A9B0BDB9734195F29E2A0A231C42 /* AppViewController.swift */; };
+		FCC92FC437601AF5290A4DBDE93EE9C3 /* TestAMoudle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1690F20BE62A8710B029666FDFC3F35B /* TestAMoudle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,35 +29,35 @@
 
 /* Begin PBXFileReference section */
 		0F978166516860BBD9C2CA223CFE1B9E /* Pods-LZDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZDemo-umbrella.h"; sourceTree = "<group>"; };
+		1690F20BE62A8710B029666FDFC3F35B /* TestAMoudle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestAMoudle-umbrella.h"; sourceTree = "<group>"; };
+		2761986C52D1BCD30558738AEF345023 /* TestAMoudle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestAMoudle.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		404E434E24B710F400445CC4 /* BppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BppViewController.swift; sourceTree = "<group>"; };
-		4A17A577490C0CD8B3C9F3F2641A7871 /* TestAMoudle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestAMoudle-prefix.pch"; sourceTree = "<group>"; };
+		334C6AAE8A63EFA1851AB7E7C672A924 /* TestAMoudle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAMoudle.release.xcconfig; sourceTree = "<group>"; };
+		4FD8EAA96E9D50BA7CBF0EAC04F6BF60 /* TestAMoudle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestAMoudle-dummy.m"; sourceTree = "<group>"; };
+		66F2BA7E025CAAD7011DEFFE944C5B36 /* BppViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BppViewController.swift; path = TestAMoudle/Classes/BppViewController.swift; sourceTree = "<group>"; };
 		67F904A3CB70980BE36ABF3464979197 /* Pods-LZDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		722F3A36394BD682448098E446D26780 /* TestAMoudle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestAMoudle-dummy.m"; sourceTree = "<group>"; };
-		737935DDE10BF3498FFF052A73B76188 /* TestAMoudle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestAMoudle-umbrella.h"; sourceTree = "<group>"; };
 		87BA3A5057012A8672C98CC173EAD0DC /* Pods-LZDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9ABDB51A7519FD55334E61DB4D4AA50B /* Pods-LZDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9B2571782D69373E9CF7FEEEF1A63A88 /* TestAMoudle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestAMoudle.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8A2F321DD426EDDE64610F3C1B4246D /* TestAMoudle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAMoudle.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD0BADAE703473B1FC192E236C8D619F /* Pods-LZDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZDemo-frameworks.sh"; sourceTree = "<group>"; };
-		AF407A02769AAE67EF981E56C919144A /* AppViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppViewController.swift; path = TestAMoudle/Classes/AppViewController.swift; sourceTree = "<group>"; };
-		BA1C4F47BB0EC1F49EF69E1DCA5F5345 /* TestAMoudle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestAMoudle-Info.plist"; sourceTree = "<group>"; };
-		BB10A903AC9ABE4651A09185BE9F6DE6 /* TestAMoudle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAMoudle.release.xcconfig; sourceTree = "<group>"; };
+		BEFEAFD914885185B661103424E9F56F /* TestAMoudle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestAMoudle-prefix.pch"; sourceTree = "<group>"; };
+		C15420F82E041B73FC7572EE1A3838CC /* TestAMoudle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAMoudle.debug.xcconfig; sourceTree = "<group>"; };
 		CD8788DE8B1D5413036767130D24A492 /* Pods-LZDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZDemo-dummy.m"; sourceTree = "<group>"; };
 		CFB4DAFA0870BF6832EB75C97EF6A31C /* Pods-LZDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E2792C8032A2DD29E8B0FA35646BF31E /* Pods-LZDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZDemo.modulemap"; sourceTree = "<group>"; };
 		E56A2399E07D6339C3F9167ED6B64E05 /* Pods-LZDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZDemo-Info.plist"; sourceTree = "<group>"; };
-		E785541CECA1C40EC89ED751EDAA3BAB /* Pods_LZDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F820F3397B94DD3CCC8FFB432CCC11E7 /* TestAMoudle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestAMoudle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E785541CECA1C40EC89ED751EDAA3BAB /* Pods_LZDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZDemo.framework; path = "Pods-LZDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F820F3397B94DD3CCC8FFB432CCC11E7 /* TestAMoudle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestAMoudle.framework; path = TestAMoudle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD5A9B0BDB9734195F29E2A0A231C42 /* AppViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppViewController.swift; path = TestAMoudle/Classes/AppViewController.swift; sourceTree = "<group>"; };
+		FD5D1E4276832909A364C8CEB23457A7 /* TestAMoudle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestAMoudle-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		24E0EF0824CC05F1AB0B4E0BF35D5EE6 /* Frameworks */ = {
+		31FAAC57F63384DD274ED1F17D04461D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC360AA0CAFD8838C4EE80589C67A5D0 /* Foundation.framework in Frameworks */,
+				22C5BBB3F8458614295B27C490BE5267 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,29 +72,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BB62D0F37F217D425F7024496CFD49F /* Support Files */ = {
+		05F0B365B2888C230B364DA14A1799F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B2571782D69373E9CF7FEEEF1A63A88 /* TestAMoudle.modulemap */,
-				722F3A36394BD682448098E446D26780 /* TestAMoudle-dummy.m */,
-				BA1C4F47BB0EC1F49EF69E1DCA5F5345 /* TestAMoudle-Info.plist */,
-				4A17A577490C0CD8B3C9F3F2641A7871 /* TestAMoudle-prefix.pch */,
-				737935DDE10BF3498FFF052A73B76188 /* TestAMoudle-umbrella.h */,
-				A8A2F321DD426EDDE64610F3C1B4246D /* TestAMoudle.debug.xcconfig */,
-				BB10A903AC9ABE4651A09185BE9F6DE6 /* TestAMoudle.release.xcconfig */,
+				2761986C52D1BCD30558738AEF345023 /* TestAMoudle.modulemap */,
+				4FD8EAA96E9D50BA7CBF0EAC04F6BF60 /* TestAMoudle-dummy.m */,
+				FD5D1E4276832909A364C8CEB23457A7 /* TestAMoudle-Info.plist */,
+				BEFEAFD914885185B661103424E9F56F /* TestAMoudle-prefix.pch */,
+				1690F20BE62A8710B029666FDFC3F35B /* TestAMoudle-umbrella.h */,
+				C15420F82E041B73FC7572EE1A3838CC /* TestAMoudle.debug.xcconfig */,
+				334C6AAE8A63EFA1851AB7E7C672A924 /* TestAMoudle.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TestAMoudle";
 			sourceTree = "<group>";
 		};
-		59C69D12A1300093868ED2A9722015C6 /* TestAMoudle */ = {
+		640AB929E944545D3C028A4863CE8089 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AF407A02769AAE67EF981E56C919144A /* AppViewController.swift */,
-				404E434E24B710F400445CC4 /* BppViewController.swift */,
-				3BB62D0F37F217D425F7024496CFD49F /* Support Files */,
+				C25860B1706D85597E81F30AF57D0AA9 /* TestAMoudle */,
 			);
-			path = TestAMoudle;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		886E7731FFE949E971EB80D2E2593362 /* Pods-LZDemo */ = {
@@ -123,14 +121,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE2EC997941FA2C839B83F43499C423C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				59C69D12A1300093868ED2A9722015C6 /* TestAMoudle */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BC5A96A3DA6A9988326323FCD8087DEF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,12 +137,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C25860B1706D85597E81F30AF57D0AA9 /* TestAMoudle */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5A9B0BDB9734195F29E2A0A231C42 /* AppViewController.swift */,
+				66F2BA7E025CAAD7011DEFFE944C5B36 /* BppViewController.swift */,
+				05F0B365B2888C230B364DA14A1799F7 /* Support Files */,
+			);
+			name = TestAMoudle;
+			path = TestAMoudle;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AE2EC997941FA2C839B83F43499C423C /* Pods */,
+				640AB929E944545D3C028A4863CE8089 /* Pods */,
 				AAAE8F1F8D63CB738524A3592369A29D /* Products */,
 				BC5A96A3DA6A9988326323FCD8087DEF /* Targets Support Files */,
 			);
@@ -169,14 +170,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		491C9E89A46B8C033C020301118C0ABE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB01F6B7EB7A50B744DF37876BE7E334 /* TestAMoudle-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		70B07045E9A58D19521C4131CE7E18CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,17 +178,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E950C725425328E0385FC390CA9E81C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC92FC437601AF5290A4DBDE93EE9C3 /* TestAMoudle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AF61A17A9E0F94AB3BC586416BAEEC84 /* TestAMoudle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04769EEF6461234ABD9B3BD0C82B624C /* Build configuration list for PBXNativeTarget "TestAMoudle" */;
+			buildConfigurationList = 2A7F940AD449345554BF6379C109A864 /* Build configuration list for PBXNativeTarget "TestAMoudle" */;
 			buildPhases = (
-				491C9E89A46B8C033C020301118C0ABE /* Headers */,
-				405A1BBF50C2EAE20292DC227AE9814D /* Sources */,
-				24E0EF0824CC05F1AB0B4E0BF35D5EE6 /* Frameworks */,
-				22DF4F0288D534F60282145D345795C8 /* Resources */,
+				E950C725425328E0385FC390CA9E81C4 /* Headers */,
+				1A18D4156C432AC385C6E5862A3BA217 /* Sources */,
+				31FAAC57F63384DD274ED1F17D04461D /* Frameworks */,
+				5FA8A7CFF56F848AC9993C0CF32C434A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -261,7 +262,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22DF4F0288D534F60282145D345795C8 /* Resources */ = {
+		5FA8A7CFF56F848AC9993C0CF32C434A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,13 +272,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		405A1BBF50C2EAE20292DC227AE9814D /* Sources */ = {
+		1A18D4156C432AC385C6E5862A3BA217 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				404E434F24B710F400445CC4 /* BppViewController.swift in Sources */,
-				3BE0DE06A129B80CDECE96B4DBD47A39 /* AppViewController.swift in Sources */,
-				DC8F16E5C34CBD098A42E67D75CCCCBE /* TestAMoudle-dummy.m in Sources */,
+				EEF4B84225B1B8EC3D54A30661B0C278 /* AppViewController.swift in Sources */,
+				19523E693684605A6CB431467EFCF839 /* BppViewController.swift in Sources */,
+				E5E9A446C0D7AC8BD4B285AA2626A2D1 /* TestAMoudle-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +302,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3AF857C14C5A0D04D189A28C7114603F /* Debug */ = {
+		658D571FED1F9CEB5FA4F923C5588680 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8A2F321DD426EDDE64610F3C1B4246D /* TestAMoudle.debug.xcconfig */;
+			baseConfigurationReference = C15420F82E041B73FC7572EE1A3838CC /* TestAMoudle.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -498,6 +499,42 @@
 			};
 			name = Release;
 		};
+		AC40038BA3E07123EC35747784148817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334C6AAE8A63EFA1851AB7E7C672A924 /* TestAMoudle.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TestAMoudle/TestAMoudle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TestAMoudle/TestAMoudle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TestAMoudle/TestAMoudle.modulemap";
+				PRODUCT_MODULE_NAME = TestAMoudle;
+				PRODUCT_NAME = TestAMoudle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CD65DD0F681DCEAA9BD8ED4F033B6037 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CFB4DAFA0870BF6832EB75C97EF6A31C /* Pods-LZDemo.debug.xcconfig */;
@@ -535,50 +572,14 @@
 			};
 			name = Debug;
 		};
-		ED07B79FBC9213B3B3FF78D0AEF61125 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB10A903AC9ABE4651A09185BE9F6DE6 /* TestAMoudle.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestAMoudle/TestAMoudle-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TestAMoudle/TestAMoudle-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TestAMoudle/TestAMoudle.modulemap";
-				PRODUCT_MODULE_NAME = TestAMoudle;
-				PRODUCT_NAME = TestAMoudle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04769EEF6461234ABD9B3BD0C82B624C /* Build configuration list for PBXNativeTarget "TestAMoudle" */ = {
+		2A7F940AD449345554BF6379C109A864 /* Build configuration list for PBXNativeTarget "TestAMoudle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AF857C14C5A0D04D189A28C7114603F /* Debug */,
-				ED07B79FBC9213B3B3FF78D0AEF61125 /* Release */,
+				658D571FED1F9CEB5FA4F923C5588680 /* Debug */,
+				AC40038BA3E07123EC35747784148817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
