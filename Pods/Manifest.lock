@@ -2,15 +2,20 @@ PODS:
   - TestAMoudle (0.1.0)
 
 DEPENDENCIES:
-  - TestAMoudle (from `Lib/TestAMoudle`)
+  - TestAMoudle (from `https://github.com/wangshaofeng11/TestAMoudle`)
 
 EXTERNAL SOURCES:
   TestAMoudle:
-    :path: Lib/TestAMoudle
+    :git: https://github.com/wangshaofeng11/TestAMoudle
+
+CHECKOUT OPTIONS:
+  TestAMoudle:
+    :commit: d8080f9206eda59bcd2fd16f0cccada2684cd550
+    :git: https://github.com/wangshaofeng11/TestAMoudle
 
 SPEC CHECKSUMS:
   TestAMoudle: e8f79bb757466184be9138a986b0db2eb90e8985
 
-PODFILE CHECKSUM: 484d39ecf1d8fe151381e31bd63e8addc88bb3e0
+PODFILE CHECKSUM: c887ed50cf8ab831c01903ab417fe404a34e409b
 
 COCOAPODS: 1.9.1

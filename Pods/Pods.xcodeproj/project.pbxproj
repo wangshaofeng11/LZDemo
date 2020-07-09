@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		07AB9594818FC1A0CC8F1D2A30C9CF4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3BE0DE06A129B80CDECE96B4DBD47A39 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481F7FF935D08B5313DD8B17E883CDF /* AppViewController.swift */; };
+		3BE0DE06A129B80CDECE96B4DBD47A39 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF407A02769AAE67EF981E56C919144A /* AppViewController.swift */; };
 		3FE89606B90C98490A370FF0AE2298CD /* Pods-LZDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F978166516860BBD9C2CA223CFE1B9E /* Pods-LZDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B351CCA14E400E7989BD086AED8CD66 /* Pods-LZDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8788DE8B1D5413036767130D24A492 /* Pods-LZDemo-dummy.m */; };
-		AB01F6B7EB7A50B744DF37876BE7E334 /* TestAMoudle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E655306F06DE8B67FAC06E2D6C9D2F64 /* TestAMoudle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB01F6B7EB7A50B744DF37876BE7E334 /* TestAMoudle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 737935DDE10BF3498FFF052A73B76188 /* TestAMoudle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC360AA0CAFD8838C4EE80589C67A5D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DC8F16E5C34CBD098A42E67D75CCCCBE /* TestAMoudle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FB7F7CCD25392769AAA3CDB8CEC62D /* TestAMoudle-dummy.m */; };
+		DC8F16E5C34CBD098A42E67D75CCCCBE /* TestAMoudle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 722F3A36394BD682448098E446D26780 /* TestAMoudle-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,30 +27,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0481F7FF935D08B5313DD8B17E883CDF /* AppViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppViewController.swift; path = TestAMoudle/Classes/AppViewController.swift; sourceTree = "<group>"; };
-		0F80450382D3DA95DF88EA5817AFD61F /* TestAMoudle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAMoudle.release.xcconfig; sourceTree = "<group>"; };
 		0F978166516860BBD9C2CA223CFE1B9E /* Pods-LZDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZDemo-umbrella.h"; sourceTree = "<group>"; };
-		241925DEAF4F86057C08C1D10B887C99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2542CE5451019B9B9282B5BEE4481594 /* TestAMoudle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestAMoudle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A17A577490C0CD8B3C9F3F2641A7871 /* TestAMoudle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestAMoudle-prefix.pch"; sourceTree = "<group>"; };
 		67F904A3CB70980BE36ABF3464979197 /* Pods-LZDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		6DDBD3C14770F9EF16647B2D6C25475C /* TestAMoudle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAMoudle.debug.xcconfig; sourceTree = "<group>"; };
-		7696B491E97A1FEFA63D2C6C298AAC34 /* TestAMoudle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestAMoudle-prefix.pch"; sourceTree = "<group>"; };
-		826E4A73D820986ECCC1513FB82E5425 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		722F3A36394BD682448098E446D26780 /* TestAMoudle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestAMoudle-dummy.m"; sourceTree = "<group>"; };
+		737935DDE10BF3498FFF052A73B76188 /* TestAMoudle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestAMoudle-umbrella.h"; sourceTree = "<group>"; };
 		87BA3A5057012A8672C98CC173EAD0DC /* Pods-LZDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9ABDB51A7519FD55334E61DB4D4AA50B /* Pods-LZDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B2571782D69373E9CF7FEEEF1A63A88 /* TestAMoudle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestAMoudle.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8A2F321DD426EDDE64610F3C1B4246D /* TestAMoudle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAMoudle.debug.xcconfig; sourceTree = "<group>"; };
 		AD0BADAE703473B1FC192E236C8D619F /* Pods-LZDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZDemo-frameworks.sh"; sourceTree = "<group>"; };
-		BE1C0D4DB328CFDF0B5F25520AF2E465 /* TestAMoudle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestAMoudle.modulemap; sourceTree = "<group>"; };
-		C3FB7F7CCD25392769AAA3CDB8CEC62D /* TestAMoudle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestAMoudle-dummy.m"; sourceTree = "<group>"; };
+		AF407A02769AAE67EF981E56C919144A /* AppViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppViewController.swift; path = TestAMoudle/Classes/AppViewController.swift; sourceTree = "<group>"; };
+		BA1C4F47BB0EC1F49EF69E1DCA5F5345 /* TestAMoudle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestAMoudle-Info.plist"; sourceTree = "<group>"; };
+		BB10A903AC9ABE4651A09185BE9F6DE6 /* TestAMoudle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAMoudle.release.xcconfig; sourceTree = "<group>"; };
 		CD8788DE8B1D5413036767130D24A492 /* Pods-LZDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZDemo-dummy.m"; sourceTree = "<group>"; };
 		CFB4DAFA0870BF6832EB75C97EF6A31C /* Pods-LZDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E2792C8032A2DD29E8B0FA35646BF31E /* Pods-LZDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZDemo.modulemap"; sourceTree = "<group>"; };
 		E56A2399E07D6339C3F9167ED6B64E05 /* Pods-LZDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZDemo-Info.plist"; sourceTree = "<group>"; };
-		E655306F06DE8B67FAC06E2D6C9D2F64 /* TestAMoudle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestAMoudle-umbrella.h"; sourceTree = "<group>"; };
 		E785541CECA1C40EC89ED751EDAA3BAB /* Pods_LZDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZDemo.framework; path = "Pods-LZDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F820F3397B94DD3CCC8FFB432CCC11E7 /* TestAMoudle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestAMoudle.framework; path = TestAMoudle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE33A49305D1D0F880578861424BB50E /* TestAMoudle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestAMoudle-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,22 +70,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		100B691EF57DCEF49C7402D549864029 /* Development Pods */ = {
+		3BB62D0F37F217D425F7024496CFD49F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC7D5C75CD7F94852CEF3AC266EF5333 /* TestAMoudle */,
+				9B2571782D69373E9CF7FEEEF1A63A88 /* TestAMoudle.modulemap */,
+				722F3A36394BD682448098E446D26780 /* TestAMoudle-dummy.m */,
+				BA1C4F47BB0EC1F49EF69E1DCA5F5345 /* TestAMoudle-Info.plist */,
+				4A17A577490C0CD8B3C9F3F2641A7871 /* TestAMoudle-prefix.pch */,
+				737935DDE10BF3498FFF052A73B76188 /* TestAMoudle-umbrella.h */,
+				A8A2F321DD426EDDE64610F3C1B4246D /* TestAMoudle.debug.xcconfig */,
+				BB10A903AC9ABE4651A09185BE9F6DE6 /* TestAMoudle.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/TestAMoudle";
 			sourceTree = "<group>";
 		};
-		36F0392A17092E9DC05E7E0588FA592C /* Pod */ = {
+		59C69D12A1300093868ED2A9722015C6 /* TestAMoudle */ = {
 			isa = PBXGroup;
 			children = (
-				826E4A73D820986ECCC1513FB82E5425 /* LICENSE */,
-				241925DEAF4F86057C08C1D10B887C99 /* README.md */,
-				2542CE5451019B9B9282B5BEE4481594 /* TestAMoudle.podspec */,
+				AF407A02769AAE67EF981E56C919144A /* AppViewController.swift */,
+				3BB62D0F37F217D425F7024496CFD49F /* Support Files */,
 			);
-			name = Pod;
+			name = TestAMoudle;
+			path = TestAMoudle;
 			sourceTree = "<group>";
 		};
 		886E7731FFE949E971EB80D2E2593362 /* Pods-LZDemo */ = {
@@ -117,19 +121,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB77F5A2C19B63B0BF93243ACBBA85B2 /* Support Files */ = {
+		AE2EC997941FA2C839B83F43499C423C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BE1C0D4DB328CFDF0B5F25520AF2E465 /* TestAMoudle.modulemap */,
-				C3FB7F7CCD25392769AAA3CDB8CEC62D /* TestAMoudle-dummy.m */,
-				FE33A49305D1D0F880578861424BB50E /* TestAMoudle-Info.plist */,
-				7696B491E97A1FEFA63D2C6C298AAC34 /* TestAMoudle-prefix.pch */,
-				E655306F06DE8B67FAC06E2D6C9D2F64 /* TestAMoudle-umbrella.h */,
-				6DDBD3C14770F9EF16647B2D6C25475C /* TestAMoudle.debug.xcconfig */,
-				0F80450382D3DA95DF88EA5817AFD61F /* TestAMoudle.release.xcconfig */,
+				59C69D12A1300093868ED2A9722015C6 /* TestAMoudle */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/TestAMoudle";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC5A96A3DA6A9988326323FCD8087DEF /* Targets Support Files */ = {
@@ -148,23 +145,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CC7D5C75CD7F94852CEF3AC266EF5333 /* TestAMoudle */ = {
-			isa = PBXGroup;
-			children = (
-				0481F7FF935D08B5313DD8B17E883CDF /* AppViewController.swift */,
-				36F0392A17092E9DC05E7E0588FA592C /* Pod */,
-				AB77F5A2C19B63B0BF93243ACBBA85B2 /* Support Files */,
-			);
-			name = TestAMoudle;
-			path = ../Lib/TestAMoudle;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				100B691EF57DCEF49C7402D549864029 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AE2EC997941FA2C839B83F43499C423C /* Pods */,
 				AAAE8F1F8D63CB738524A3592369A29D /* Products */,
 				BC5A96A3DA6A9988326323FCD8087DEF /* Targets Support Files */,
 			);
@@ -314,7 +300,7 @@
 /* Begin XCBuildConfiguration section */
 		3AF857C14C5A0D04D189A28C7114603F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DDBD3C14770F9EF16647B2D6C25475C /* TestAMoudle.debug.xcconfig */;
+			baseConfigurationReference = A8A2F321DD426EDDE64610F3C1B4246D /* TestAMoudle.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -548,7 +534,7 @@
 		};
 		ED07B79FBC9213B3B3FF78D0AEF61125 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F80450382D3DA95DF88EA5817AFD61F /* TestAMoudle.release.xcconfig */;
+			baseConfigurationReference = BB10A903AC9ABE4651A09185BE9F6DE6 /* TestAMoudle.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
