@@ -1,5 +1,5 @@
 //
-//  CPPViewController.swift
+//  DViewController.swift
 //  TestAMoudle
 //
 //  Created by wsf on 2020/7/10.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CPPViewController: UIViewController {
+class DViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
