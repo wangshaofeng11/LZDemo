@@ -16,6 +16,7 @@
 		404E432B24B70B0900445CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404E432924B70B0900445CC4 /* LaunchScreen.storyboard */; };
 		404E433624B70B0900445CC4 /* LZDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404E433524B70B0900445CC4 /* LZDemoTests.swift */; };
 		404E434124B70B0900445CC4 /* LZDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404E434024B70B0900445CC4 /* LZDemoUITests.swift */; };
+		404E442324B8714F00445CC4 /* RRRRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404E442224B8714F00445CC4 /* RRRRViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		404E433C24B70B0900445CC4 /* LZDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		404E434024B70B0900445CC4 /* LZDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZDemoUITests.swift; sourceTree = "<group>"; };
 		404E434224B70B0900445CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404E442224B8714F00445CC4 /* RRRRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RRRRViewController.swift; path = Lib/TestAMoudle/TestAMoudle/Classes/RRRRViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				404E431E24B70B0700445CC4 /* AppDelegate.swift */,
 				404E432024B70B0700445CC4 /* SceneDelegate.swift */,
 				404E432224B70B0700445CC4 /* ViewController.swift */,
+				404E442224B8714F00445CC4 /* RRRRViewController.swift */,
 				404E432424B70B0700445CC4 /* Main.storyboard */,
 				404E432724B70B0900445CC4 /* Assets.xcassets */,
 				404E432924B70B0900445CC4 /* LaunchScreen.storyboard */,
@@ -329,6 +332,7 @@
 			files = (
 				404E432324B70B0700445CC4 /* ViewController.swift in Sources */,
 				404E431F24B70B0700445CC4 /* AppDelegate.swift in Sources */,
+				404E442324B8714F00445CC4 /* RRRRViewController.swift in Sources */,
 				404E432124B70B0700445CC4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
