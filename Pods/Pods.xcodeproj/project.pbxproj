@@ -11,7 +11,7 @@
 		19523E693684605A6CB431467EFCF839 /* BppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2BA7E025CAAD7011DEFFE944C5B36 /* BppViewController.swift */; };
 		22C5BBB3F8458614295B27C490BE5267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3FE89606B90C98490A370FF0AE2298CD /* Pods-LZDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F978166516860BBD9C2CA223CFE1B9E /* Pods-LZDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		404E441D24B866FF00445CC4 /* CPPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404E441C24B866FF00445CC4 /* CPPViewController.swift */; };
+		404E441F24B86F1C00445CC4 /* CPPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404E441E24B86F1C00445CC4 /* CPPViewController.swift */; };
 		4B351CCA14E400E7989BD086AED8CD66 /* Pods-LZDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8788DE8B1D5413036767130D24A492 /* Pods-LZDemo-dummy.m */; };
 		E5E9A446C0D7AC8BD4B285AA2626A2D1 /* TestAMoudle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8EAA96E9D50BA7CBF0EAC04F6BF60 /* TestAMoudle-dummy.m */; };
 		EEF4B84225B1B8EC3D54A30661B0C278 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A9B0BDB9734195F29E2A0A231C42 /* AppViewController.swift */; };
@@ -34,7 +34,7 @@
 		2761986C52D1BCD30558738AEF345023 /* TestAMoudle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestAMoudle.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		334C6AAE8A63EFA1851AB7E7C672A924 /* TestAMoudle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAMoudle.release.xcconfig; sourceTree = "<group>"; };
-		404E441C24B866FF00445CC4 /* CPPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPPViewController.swift; sourceTree = "<group>"; };
+		404E441E24B86F1C00445CC4 /* CPPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CPPViewController.swift; path = TestAMoudle/Classes/CPPViewController.swift; sourceTree = "<group>"; };
 		4FD8EAA96E9D50BA7CBF0EAC04F6BF60 /* TestAMoudle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestAMoudle-dummy.m"; sourceTree = "<group>"; };
 		66F2BA7E025CAAD7011DEFFE944C5B36 /* BppViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BppViewController.swift; path = TestAMoudle/Classes/BppViewController.swift; sourceTree = "<group>"; };
 		67F904A3CB70980BE36ABF3464979197 /* Pods-LZDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZDemo-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 			children = (
 				FAD5A9B0BDB9734195F29E2A0A231C42 /* AppViewController.swift */,
 				66F2BA7E025CAAD7011DEFFE944C5B36 /* BppViewController.swift */,
-				404E441C24B866FF00445CC4 /* CPPViewController.swift */,
+				404E441E24B86F1C00445CC4 /* CPPViewController.swift */,
 				05F0B365B2888C230B364DA14A1799F7 /* Support Files */,
 			);
 			path = TestAMoudle;
@@ -283,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				404E441D24B866FF00445CC4 /* CPPViewController.swift in Sources */,
+				404E441F24B86F1C00445CC4 /* CPPViewController.swift in Sources */,
 				EEF4B84225B1B8EC3D54A30661B0C278 /* AppViewController.swift in Sources */,
 				19523E693684605A6CB431467EFCF839 /* BppViewController.swift in Sources */,
 				E5E9A446C0D7AC8BD4B285AA2626A2D1 /* TestAMoudle-dummy.m in Sources */,
