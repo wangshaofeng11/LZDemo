@@ -9,5 +9,9 @@
 import UIKit
 
 public class AppViewController:UIViewController{
-    
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .orange
+        // Do any additional setup after loading the view.
+    }
 }
